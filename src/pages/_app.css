@@ -1,0 +1,14 @@
+.menu-item {
+  color: grey;
+  text-decoration: none;
+}
+
+.menu-item.active {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
