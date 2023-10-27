@@ -50,7 +50,7 @@ export default function Root() {
   return (
     <>
       <Menu menu={menu} />
-      <Suspense fallback={null}>
+      <Suspense fallback={'loading...'}>
         <Outlet />
       </Suspense>
     </>
